@@ -39,6 +39,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.minutesUpDown)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.questionsUpDown)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.secondsUpDown)).BeginInit();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
 			this.SuspendLayout();
 			// 
 			// startButton
@@ -161,6 +162,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ClientSize = new System.Drawing.Size(289, 163);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.secondsUpDown);
 			this.Controls.Add(this.label2);

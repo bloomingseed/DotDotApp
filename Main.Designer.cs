@@ -44,6 +44,7 @@
 			this.seeTestResultButton = new System.Windows.Forms.Button();
 			this.pauseButton = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
 			this.SuspendLayout();
 			// 
 			// dataGridView1
@@ -220,6 +221,8 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ClientSize = new System.Drawing.Size(467, 519);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.ResumeLayout(false);
 			this.Controls.Add(this.pauseButton);
 			this.Controls.Add(this.seeTestResultButton);
 			this.Controls.Add(this.statusTextBox);
@@ -236,7 +239,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.dataGridView1);
 			this.Name = "Main";
-			this.Text = "DotDot";
+			this.Text = "Dot Dot";
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();

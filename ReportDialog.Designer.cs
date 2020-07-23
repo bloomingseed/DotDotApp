@@ -63,6 +63,7 @@
 			this.label16 = new System.Windows.Forms.Label();
 			this.scoreInGrade10TextBox = new System.Windows.Forms.TextBox();
 			this.label17 = new System.Windows.Forms.Label();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
 			this.SuspendLayout();
 			// 
 			// okButton
@@ -483,6 +484,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ClientSize = new System.Drawing.Size(565, 409);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Controls.Add(this.label17);
 			this.Controls.Add(this.label16);
 			this.Controls.Add(this.scoreInGrade10TextBox);
